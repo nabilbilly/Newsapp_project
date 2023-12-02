@@ -11,7 +11,7 @@ import AI2 from '../images/AI1.jpg'
 import AI3 from '../images/AI2.jpg'
 
 
-import { Data } from './Data';
+import { Data } from './Data'; 
 
 
 
