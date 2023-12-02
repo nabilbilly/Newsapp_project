@@ -62,16 +62,6 @@ body{
   text-align: left;
 }
 
-
-
-
-
-
-
-
-
-
-
 .card {
   max-width: 300px;
   border-radius: 0.5rem;
@@ -91,11 +81,11 @@ body{
   padding: 1.1rem;
 }
 
-.image {
+.image img {
   object-fit: cover;
   width: 100%;
-  height: 200px;
-  background-color: rgb(239, 205, 255);
+  height: 240px;
+  
 }
 
 .title {
@@ -144,64 +134,5 @@ body{
 .content-carousel{
   background-color: #fff;
   padding: 40px 0 70px 30px;
-}
-
-.book {
-  position: relative;
-  border-radius: 10px;
-  max-width: 300px;
-  height: auto;
-  background-color: whitesmoke;
-  -webkit-box-shadow: 1px 1px 12px #000;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-  -webkit-transform: preserve-3d;
-  -ms-transform: preserve-3d;
-  transform: preserve-3d;
-  -webkit-perspective: 2000px;
-  perspective: 2000px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  color: #000;
-  
-}
-
-.cover {
-  top: 0;
-  position: absolute;
-  background-color: whitesmoke;
-  max-width: 300px;
-  border-radius: 10px;
-  cursor: pointer;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  -webkit-transform-origin: 0;
-  -ms-transform-origin: 0;
-  transform-origin: 0;
-  -webkit-box-shadow: 1px 1px 12px #000;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.book:hover .cover {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  -webkit-transform: rotatey(-80deg);
-  -ms-transform: rotatey(-80deg);
-  transform: rotatey(-80deg);
 }
 
